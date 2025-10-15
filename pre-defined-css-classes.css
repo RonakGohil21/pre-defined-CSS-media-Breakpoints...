@@ -1,0 +1,246 @@
+/* universal property */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito' , sans-serif;
+}
+
+/* common classes */
+
+.container {
+    width: 1320px;
+    padding: 0px 16px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    margin: 0px -16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-1 {
+    width: 8.33%;
+}
+
+.w-2 {
+    width: 16.66%;
+}
+
+.w-3 {
+    width: 25%;
+}
+
+.w-4 {
+    width: 33.33%;
+}
+
+.w-5 {
+    width: 41.66%;
+}
+
+.w-6 {
+    width: 50%;
+}
+
+.w-7 {
+    width: 58.33%;
+}
+
+.w-8 {
+    width: 66.66%;
+}
+
+.w-9 {
+    width: 75%;
+}
+
+.w-10 {
+    width: 83.33%;
+}
+
+.w-11 {
+    width: 91.66%;
+}
+
+.w-12 {
+    width: 100%;
+}
+
+.w-1,.w-2,.w-3,.w-4,.w-5,.w-6,.w-7,.w-8,.w-3,.w-10,.w-11,.w-12{
+    padding: 0 8px;
+}
+
+img {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.pos-abs {
+    position: absolute;
+}
+.f-nowrap {
+    flex-wrap: nowrap;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-wrap-rev {
+    flex-wrap: wrap-reverse;
+}
+
+.f-dire-row {
+    flex-direction: row;
+}
+
+.f-dire-row-rev {
+    flex-direction: row-reverse;
+}
+
+.f-dire-col {
+    flex-direction: column;
+}
+
+.f-dire-col-rev {
+    flex-direction: column-reverse;
+}
+
+.j-con-start {
+    justify-content: flex-start;
+}
+
+.j-con-end {
+    justify-content: flex-end;
+}
+
+.j-con-center {
+    justify-content: center;
+}
+
+.j-spc-betw {
+    justify-content: space-between;
+}
+
+.j-spc-evn {
+    justify-content: space-evenly;
+}
+
+.j-spc-arnd {
+    justify-content: space-around;
+}
+
+.aln-con-f-start {
+    align-content: flex-start;
+}
+
+.aln-con-f-end {
+    align-content: flex-end;
+}
+
+.aln-con-center {
+    align-content: center;
+}
+
+.aln-con-spc-betw {
+    align-content: space-between;
+}
+
+.aln-con-spc-around {
+    align-content: space-around;
+}
+
+.aln-con-spc-evenly {
+    align-content: space-evenly;
+}
+
+.aln-itm-f-start {
+    align-items: flex-start;
+}
+
+.aln-itm-f-end {
+    align-items: flex-end;
+}
+
+.aln-itm-center {
+    align-items: center;
+}
+
+.aln-itm-baseline {
+    align-items: baseline;
+}
+
+.aln-itm-stretch {
+    align-items: stretch;
+}
+
+.vertical-align {
+    vertical-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.green {
+    color: rgb(3, 188, 3);
+}
+
+.deco-none {
+    text-decoration: none;
+}
+
+.pos-rel {
+    position: relative
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.py-90 {
+    padding: 90px 0px;
+}
+
+.py-20 {
+    padding: 20px 0px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.pd-7{
+    padding: 7px;
+}
+
+.br-25{
+    border-radius: 25px;
+}
